@@ -1,0 +1,3 @@
+Algunas consideraciones:
+Mi idea era hacerlo responsive, pero no llegué.
+

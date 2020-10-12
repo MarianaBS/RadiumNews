@@ -1,6 +1,5 @@
 body{
     
-    font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
     padding: 16px;
     margin-left: 150px;
     position: absolute;
@@ -8,10 +7,19 @@ body{
     
 
 }
-
+body.new1{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+body.new2{
+    font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
+}
 article,header{
     margin-right: 30px;
-    width: auto;
+    /*width: auto;*/
+}
+
+footer{
+    
 }
 
 p,h2{
@@ -24,17 +32,23 @@ a{
     font-weight: bold;
     text-decoration: none;
 }
+
 a:hover{
     color:#677CAC ;
 
 }
+
 ul,li{
-    margin-top: 18px
+    
+    padding: 0;
+    margin: 18px 10px;
+
 }
+
+
 iframe{
     width:630px;
     height: 340px;
-   
     border: 0; 
     
 }
@@ -44,7 +58,7 @@ iframe{
     margin: 20px 0px;
 }
 
-.long-line,.short-line{
+.long-line,.short-line, .very-short-line{
     margin: 25px 0px;
     border-color:#FAFAFA;
    
@@ -55,6 +69,11 @@ iframe{
 }
 .short-line{
     width: 620px ;
+}
+.very-short-line{
+    width:30%;
+    margin-left: 40%;
+    
 }
 .column-two{
    
@@ -70,7 +89,7 @@ iframe{
     margin: 20px 0px;
     padding: 0;
     width: 90%;
-    /*max-width: 400px;*/
+    max-width: 600px;
     /*height: fit-content;  */
     position: relative;
     z-index: -1;
