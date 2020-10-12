@@ -3,15 +3,20 @@ body{
     font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
     padding: 16px;
     margin-left: 150px;
+    position: absolute;
+    width: 50%;
     
 
 }
 
 article,header{
-    margin-right: 550px
+    margin-right: 30px;
+    width: auto;
 }
-p{
+
+p,h2{
     color: #404040;
+    line-height: 1.5;
 }
 a{
     border-bottom: 1px solid #dcdcdc;
@@ -26,9 +31,23 @@ a:hover{
 ul,li{
     margin-top: 18px
 }
+iframe{
+    width:630px;
+    height: 340px;
+   
+    border: 0; 
+    
+}
+
+.video{
+    overflow: hidden;
+    margin: 20px 0px;
+}
+
 .long-line,.short-line{
-    margin-bottom: 16px;
+    margin: 25px 0px;
     border-color:#FAFAFA;
+   
    
 }
 .long-line{
@@ -48,9 +67,13 @@ ul,li{
 }
 .images{
     display: block;
-    margin: 0;
+    margin: 20px 0px;
     padding: 0;
-    width: 1050px;  
+    width: 90%;
+    /*max-width: 400px;*/
+    /*height: fit-content;  */
+    position: relative;
+    z-index: -1;
     
 }
 
@@ -65,10 +88,15 @@ ul,li{
 
 
 .image-and-copyright{
-    margin: 0;
-    padding: 0;
-    /*max-width: 1000px;
-    height: auto;*/
+    background: rgba(0,0,0,0.6);
+    bottom: 55px;
+    color: #ececec;
+    letter-spacing: .25px;
+    padding: 3px 8px 1px;
+    position: absolute;
+    left: 480px;
+    right: 0;
+    width: 125px;
 
 }
 
@@ -79,8 +107,10 @@ ul,li{
     font-size: 14px;
     padding: 16px;
     margin: 0;
-    max-width: 60%;
-    /*height: auto;  */  
+    width: 630px;
+   
+   
+    
 }
 
 .image-caption2{
@@ -90,15 +120,10 @@ ul,li{
     padding: 16px;
     margin-top: 0;
     width: 593px;
+   
     
 }
 
-/*.image-caption-text{ 
-    display: block;
-    color: white;
-    font-size: 14px;
-}
-*/
 p.introduction{
     color: #404040;
     font-weight: bold;
