@@ -1,3 +1,6 @@
 Algunas consideraciones:
-Mi idea era hacerlo responsive, pero no llegué.
+Mi idea era hacerlo responsive, pero claramente no llegué.
+En la segunda noticia hay un video que no funciona.
+
+
 
