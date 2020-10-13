@@ -23,7 +23,7 @@ article,header{
 }
 
 footer{
-   width: 15%;
+   width: 20%;
     
 }
 
@@ -39,17 +39,24 @@ body.new1 h1, body.new1 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
-a{
+ a{
+    text-decoration: none;
     border-bottom: 1px solid #dcdcdc;
     color: #222;
     font-weight: bold;
-    text-decoration: none;
+    
+}
+body.new1 a:hover{
+    color:red ;
+    text-decoration: underline;
+
 }
 
-a:hover{
+body.new2 a:hover{
     color:#677CAC ;
 
 }
+
 
 ul,li{
     
@@ -186,6 +193,35 @@ p.introduction{
 }
 
 p.pie-pag{
-    border: 2px solid red;
+    border: 1px solid red;
     padding: 5px;
+}
+
+a.header-tag-link{
+    text-decoration: none;
+    font-size: small;
+    color: #3F3F42;
+    border: 1px solid #DB7F7F;
+    font-weight: bold;
+    padding: 0.5rem;
+    width: 25%;
+    
+}
+ a.header-tag-link:hover{
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
+a.header-tag-link2:link{
+    text-decoration: none;
+    font-size: small;
+    color: #3F3F42;
+    border: 1px solid;
+    font-weight: bold;
+    padding: 0.5rem;
+    width: 25%;
+    
+}
+ a.header-tag-link2:hover{
+    color: rgb(255, 255, 255)60, 158, 158);
+    background-color:blue;
 }
