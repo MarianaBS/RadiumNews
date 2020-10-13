@@ -183,7 +183,7 @@ a.header-tag-link{
 }
 
  a.header-tag-link:hover{
-    color: rgb(255, 255, 255);
+    color: white;
     background-color: red;
 }
 
@@ -198,6 +198,6 @@ a.header-tag-link2:link{
 }
 
  a.header-tag-link2:hover{
-    color: rgb(255, 255, 255)60, 158, 158);
-    background-color:blue;
+    color: white;
+    background-color:blue
 }
