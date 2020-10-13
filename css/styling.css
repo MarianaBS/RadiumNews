@@ -8,10 +8,14 @@ body{
 
 }
 body.new1{
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family:  ReithSans,Helvetica,Arial,freesans,sans-serif;
+    
+    color: #3F3F42;
+    
 }
 body.new2{
     font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
+
 }
 article,header{
     margin-right: 30px;
@@ -19,12 +23,21 @@ article,header{
 }
 
 footer{
+   width: 15%;
     
 }
 
-p,h2{
+figure{
+    margin: 0px;
+}
+
+ p,h2{
     color: #404040;
     line-height: 1.5;
+}
+body.new1 h1, body.new1 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
 }
 a{
     border-bottom: 1px solid #dcdcdc;
@@ -64,7 +77,7 @@ iframe{
    
    
 }
-.long-line{
+.long-line,.red-long-line{
     width: 660px;
 }
 .short-line{
@@ -74,6 +87,10 @@ iframe{
     width:30%;
     margin-left: 40%;
     
+}
+.red-long-line{
+    margin: 25px 0px;
+    border-color: red;
 }
 .column-two{
    
@@ -89,13 +106,23 @@ iframe{
     margin: 20px 0px;
     padding: 0;
     width: 90%;
-    max-width: 600px;
+    /*max-width: 600px;
     /*height: fit-content;  */
     position: relative;
     z-index: -1;
     
 }
 
+.images2{
+    display: block;
+    margin: 0px;
+    padding: 0;
+    width: 661px;
+    position: relative;
+    z-index: -1;
+   
+    
+}
 
     
 .by_title{
@@ -125,7 +152,7 @@ iframe{
     color: white;
     font-size: 14px;
     padding: 16px;
-    margin: 0;
+    margin: 0px;
     width: 630px;
    
    
@@ -137,14 +164,28 @@ iframe{
     color: white;
     font-size: 14px;
     padding: 16px;
-    margin-top: 0;
+    margin: 0px;
     width: 593px;
    
     
 }
-
+.image-caption3{
+    background-color:rgb(73, 73, 73);
+    color: white;
+    font-size: 14px;
+    padding: 16px;
+    margin: 0px;
+    width: 630px;
+   
+    
+}
 p.introduction{
     color: #404040;
     font-weight: bold;
     margin-top: 24px;
+}
+
+p.pie-pag{
+    border: 2px solid red;
+    padding: 5px;
 }
