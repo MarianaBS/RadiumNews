@@ -41,7 +41,10 @@ a{
     font-weight: bold;
 }
 
-a.new1:hover{
+a.new1-link-foot{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a.new1:hover,a.new1-link-foot:hover{
     color:red ;
     text-decoration: underline;
     border-bottom: 1px solid #dcdcdc;
