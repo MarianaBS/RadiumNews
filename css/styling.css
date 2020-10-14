@@ -37,18 +37,19 @@ body.new1 h1, body.new1 h2{
 
 a{
     text-decoration: none;
-    border-bottom: 1px solid #dcdcdc;
     color: #222;
     font-weight: bold;
 }
 
-body.new1 a:hover{
+a.new1:hover{
     color:red ;
     text-decoration: underline;
+    border-bottom: 1px solid #dcdcdc;
 }
 
-body.new2 a:hover{
+a.new2:hover{
     color:#677CAC ;
+    border-bottom: 1px solid #dcdcdc;
 }
 
 ul,li{
@@ -171,7 +172,7 @@ p.pie-pag{
     padding: 5px;
 }
 
-a.header-tag-link:link, a.header-tag-link:visited{
+a.header-tag-link:link{
     text-decoration: none;
     font-size: small;
     color: #3F3F42;
@@ -182,7 +183,7 @@ a.header-tag-link:link, a.header-tag-link:visited{
     margin-right: 5px; 
 }
 
-a.header-tag-link2:link, a.header-tag-link2:visited {
+a.header-tag-link2:link {
     text-decoration: none;
     font-size: small;
     color: #3F3F42;
@@ -194,13 +195,15 @@ a.header-tag-link2:link, a.header-tag-link2:visited {
 }
 
 a.header-tag-link:hover{
-    /*color: white;*/
+    color: white;
     background-color: red;
+    text-decoration: none;
 }
 
  a.header-tag-link2:hover{
-   /* color: white;*/
-    background-color:blue
+    color: white;
+    background-color:blue;
+    text-decoration: none;
 }
 
 .header-theme{
