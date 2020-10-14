@@ -1,7 +1,7 @@
 body{
     
     padding: 16px;
-    margin-left: 150px;
+    margin-left: 100px;
     width: 50%;
 }
 
@@ -178,7 +178,8 @@ a.header-tag-link:link, a.header-tag-link:visited{
     border: 1px solid #DB7F7F;
     font-weight: bold;
     padding: 0.5rem;
-    width: 25%;  
+    width: 25%; 
+    margin-right: 5px; 
 }
 
 a.header-tag-link2:link, a.header-tag-link2:visited {
@@ -193,11 +194,15 @@ a.header-tag-link2:link, a.header-tag-link2:visited {
 }
 
 a.header-tag-link:hover{
-    color: white;
+    /*color: white;*/
     background-color: red;
 }
 
  a.header-tag-link2:hover{
-    color: white;
+   /* color: white;*/
     background-color:blue
+}
+
+.header-theme{
+    border-bottom: 2px solid red
 }
